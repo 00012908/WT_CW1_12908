@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form Validation</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"/>
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img class="logo" src="./all.photos/main_images/logomusthave.jpg"></a>    
+        
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a  class="active" href="form.html">Log In</a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </section>
+
+    <section>
+        <video autoplay muted loop id="video"><source src="./video/video.background.mp4" type="video/mp4"></video>
+        <div class="wrapper">
+            <form action="#" class="box" method="box">
+                <h1>Login</h1>
+                <div class="username">
+                    <input type="text" placeholder=" Enter Username" id="username">
+                <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="password">
+                    <input type="text" id="password" placeholder="Enter Password">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+
+                <button class="normal" id="btn-form" type="submit" onclick="validate()">Login</button>
+
+            </form>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="./all.photos/main_images/logomusthave.jpg">
+        <h4>Contact</h4>
+        <p><strong>Adress:</strong> Uzbekistan, Tashkent city, Mustaqillik Str., 21As</p>
+        <p><strong>Telephone:</strong> +998 92 718 37 98</p>
+        <p><strong>E-mail:</strong> musthave@gmail.com</p>
+        <p><strong>Office hours:</strong> 8:00 - 20:00</p>
+        
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.telegram.org/k/"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div> 
+    </div>
+    <div id="col2" class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="cart.html">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+    </div>
+    <div id="col2" class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+
+<div class="westminster">
+    <p>This website was created to fulfill Web Technology 
+        module's requirements and does not represent an actual company or service.</p>
+</div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
